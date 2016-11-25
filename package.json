@@ -1,0 +1,22 @@
+{
+  "name": "f5-services",
+  "version": "1.0.0",
+  "description": "freshup services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frshup/f5-services.git"
+  },
+  "author": "Dhananjaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frshup/f5-services/issues"
+  },
+  "homepage": "https://github.com/frshup/f5-services#readme",
+  "dependencies": {
+    "f5-core": "git+https://github.com/frshup/f5-core.git"
+  }
+}
