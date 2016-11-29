@@ -7,24 +7,24 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 var InventoryItemDto = require('./InventoryItemDto');
 
 var InventoryDto = function () {
-    function InventoryDto(location_id, items) {
-        _classCallCheck(this, InventoryDto);
+  function InventoryDto(location_id, items) {
+    _classCallCheck(this, InventoryDto);
 
-        this._location_id = location_id;
-        this._items = items;
+    this._location_id = location_id;
+    this._items = items;
+  }
+
+  _createClass(InventoryDto, [{
+    key: 'items',
+    get: function get() {
+      return this._items;
+    },
+    set: function set(value) {
+      this._items = value;
     }
+  }]);
 
-    _createClass(InventoryDto, [{
-        key: 'items',
-        get: function get() {
-            return this._items;
-        },
-        set: function set(value) {
-            this._items = value;
-        }
-    }]);
-
-    return InventoryDto;
+  return InventoryDto;
 }();
 
 module.exports = InventoryDto;
